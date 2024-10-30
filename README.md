@@ -20,7 +20,7 @@ This project aims to predict loan defaults using a machine learning model traine
 9. Appendix
 
 ## Dataset
-The original dataset downloaded from Kaggle is has been split into training and validation data. The dataset we use here is the training portion which is the 80% of the original dataset. It contains 34 columns and 126,369 rows. Key features include loan amount, interest rates, credit score, income, property value, and debt-to-income ratio. The target variable is `Status` (0: Not Defaulted, 1: Defaulted). The other portion of the original dataset is used in model validation step.
+The original dataset downloaded from Kaggle is has been split into training and validation data. The dataset we use here is the training portion which is the 85% of the original dataset. It contains 34 columns and 126,369 rows. Key features include loan amount, interest rates, credit score, income, property value, and debt-to-income ratio. The target variable is `Status` (0: Not Defaulted, 1: Defaulted). The other portion of the original dataset is used in model validation step.
 
 ## Exploratory Data Analysis
 Exploratory analysis included:
