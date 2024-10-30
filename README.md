@@ -44,10 +44,7 @@ The most accurate model is validated using unseen data, which was split from the
 ## Deployment
 
 Model is serialized and saved using Joblib library. It has been deployed and tested with a custom batch prediction.
-
-To deploy, use Docker to containerize the project with all dependencies.
-1. Build the Docker image: `docker build -t loan-default-prediction .`
-2. Run the container: `docker run -p 8888:8888 loan-default-prediction`
+The whole model has been also containerized using docker.
 
 ## Conclusion
 The project successfully demonstrates the use of machine learning to predict loan default status, providing valuable insights to financial institutions for informed decision-making. Future improvements are denoted in the detailed conclusion of the notebook.
